@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+        <!-- <nav class="navbar fixed-top navbar-expand-md navbar-light bg-light border-bottom border-secondary">
+            <div class="container"></div>
+            <a class="navbar-brand" id="name" href="#">Bryan Valencia</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div id="navList">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active list-item">
+                  <a class="nav-link" href="#">About Me<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </nav> -->
+          <nav class="row navbar fixed-top navbar-expand-md navbar-light bg-light">
+                <div class="container">
+                  <a class="navbar-brand" href="#" style="color: white;">Bryan Valencia</a>
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <!-- right navigation links -->
+                    <ul class="navbar-nav ml-auto">
+                      <!-- active navigation link -->
+                      <li class="nav-item active">
+                        <a class="nav-link" href="#">About Me
+                          <span class="sr-only">(current)</span>
+                        </a>
+                      </li>
+                      <!-- regular navigation link -->
+                      <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+          <div id="main-content" class="container col-sm mx-auto">
+            <div id="about-me"><h2>About Me</h2></div>
+            <div class="media col-12">
+                <div class="media-body">
+                        <img src="https://via.placeholder.com/250" class="mr-3" alt="gray placeholder image">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sodales mattis gravida. Duis nisl purus, hendrerit in facilisis sit amet, ultrices sed nisi. Aliquam et ullamcorper lacus, in rutrum ligula. Fusce et placerat erat. Nullam dapibus orci imperdiet lorem tristique, sed hendrerit sem faucibus. Etiam pharetra sem odio, vitae egestas odio lobortis cursus. Cras vel semper massa, non tristique elit. Nullam tempus feugiat sodales. Nunc sed ante elit. Duis vitae commodo ipsum. Nam sit amet ligula dictum, pellentesque sem sit amet, sodales mauris. In hac habitasse platea dictumst. Pellentesque quis ligula vel neque ultrices scelerisque et ac magna. Fusce vitae nunc et nunc venenatis mollis in sed dolor.
+
+                        Nunc vel quam at diam cursus molestie in at leo. Duis gravida sapien sit amet malesuada commodo. Etiam ultricies mi orci, ac porta metus ullamcorper ac. Vivamus dictum accumsan mauris blandit feugiat. Curabitur molestie nunc eget quam pellentesque fermentum. Nunc nec aliquam est. In lobortis, lacus quis volutpat sollicitudin, nunc nisi commodo dolor, at pretium nulla ex nec justo. Ut cursus ac massa ultrices lobortis. Proin sed malesuada lacus. Ut porta libero a vehicula finibus. Nulla vulputate vitae dolor at auctor.
+                        
+                        Fusce consectetur magna quis cursus ornare. Sed auctor augue non diam blandit porttitor. Aliquam neque ante, fermentum ut augue in, posuere malesuada augue. Pellentesque finibus lobortis commodo. Cras ac est vel purus faucibus congue. Vestibulum pellentesque semper justo et cursus. Fusce pulvinar ac nulla sed efficitur. Proin id ultricies nulla. Quisque quis nulla euismod, interdum nibh eget, pretium lacus. Nulla sodales bibendum consequat. Proin porta sodales auctor. Etiam sit amet quam id ligula aliquet pretium. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur quis lacinia diam, ac tincidunt sapien. Nunc commodo venenatis tempor.                    
+                </div>
+            </div>
+        </div>
+          <footer class="footer fixed-bottom">Copyright</footer>
+</body>
+<style>
+body {
+    background-color: #ddd;
+    background-image: url('images/grey-linen-texture-background.jpg');
+    background-repeat: repeat;
+
+}
+/*-----------Header-----------*/ 
+.navbar, .navbar-light {
+    height: 100px;
+}
+.navbar-brand {
+    background-color: #4aaaa5;
+    font-size: 2.5em;
+    color: white;
+    height: 100%;
+    position: absolute;
+    left: 20%;
+    padding: 15px 5px 0 5px;
+}
+#navList {
+    font-size: 1.25em;
+    position: absolute;
+    right: 20%;
+}
+.nav-item { 
+    border-right: 1px solid lightgray;
+}
+
+
+/*-----------Middle of Page-----------*/
+#main-content {
+    background-color: white;
+    border: 2px solid #ddd;
+    width: 80%;
+    margin: 200px auto;
+}
+@media (max-width: 770px) {
+   #main-content {
+       width: 100%;
+       margin: 101px auto;
+       margin-bottom: 0;
+       border: none;
+}
+
+}
+#about-me {
+    margin: 15px 15px 5px 15px;
+    border-bottom: 2px solid #ddd;
+}
+h2 {
+    color: #4aaaa5;
+}
+.media img {
+    float: left;
+    orientation: 90;
+    width: 180px; 
+    height: 240px;
+    margin: 0 15px 15px 0;
+}
+/*-----------Footer-----------*/
+footer {
+    width: 100%;
+    height: 50px;
+    background-color:#444;
+    border-top: 8px #4aaaa5 solid;
+    color: white;
+    text-align: center;
+}
+
+</style>
+</html>

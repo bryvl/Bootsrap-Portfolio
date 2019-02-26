@@ -1,0 +1,19 @@
+
+
+#name {
+    background-color: rgb(65, 148, 123);
+    font-size: 2.5em;
+    color: white;
+    height: 100%;
+    position: absolute;
+    left: 20%;
+}
+
+#navList {
+    font-size: 1.25em;
+    position: absolute;
+    right: 20%;
+}
+.listItem {
+    border-right: 1px solid lightgray;
+}
